@@ -1,0 +1,12 @@
+.idea
+/.vscode/
+
+# project files
+gm_bot.config
+
+# deno files
+deno.lock
+
+# MacOS generated files
+.DS_Store
+.DS_Store?

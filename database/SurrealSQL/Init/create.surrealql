@@ -1,0 +1,8 @@
+DEFINE NAMESPACE telegram_bots;
+DEFINE DATABASE gm_bot;
+
+DEFINE TABLE message;
+DEFINE FIELD user_id ON TABLE message TYPE number;
+DEFINE FIELD content ON TABLE message TYPE string;
+DEFINE FIELD timestamp ON TABLE message TYPE datetime;
+DEFINE INDEX id ON TABLE message FIELDS user_id, content, timestamp UNIQUE;

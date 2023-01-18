@@ -1,0 +1,6 @@
+# .prettierrc.toml
+trailingComma = "all"
+tabWidth = 4
+endOfLine = "lf"
+semi = false
+singleQuote = true
